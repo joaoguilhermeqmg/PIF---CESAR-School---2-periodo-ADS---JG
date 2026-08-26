@@ -1,1 +1,17 @@
-
+/*
+\r [ sequência de escape ] [ char ]
+2130 [ inteiro ] [ int ]
+-123 [ inteiro ] [ int ]
+33.28 [ ponto flutuante ] [ float ]
+0XFA [ inteiro hexadecimal ] [ int ]
+0101 [ inteiro octal ] [ int ]
+2.0e30 [ ponto flutuante ] [ double ]
+\xDC [ sequência de escape ] [ char ]
+'\"' [ caractere ] [ char ]
+'\\' [ sequência de escape ] [ char ]
+'F' [ caractere ] [ char ]
+0 [ inteiro ] [ int ]
+'\0' [ sequência de escape ] [ char ]
+"F" [ string ] [ char* ]
+-4567.89 [ ponto flutuante ] [ double ] 
+*/
