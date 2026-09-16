@@ -1,0 +1,3 @@
+a) O número que vai ser exibido é o 2
+b) Pois a variável foi declarada como int, então ela só consegue guardar números inteiros, a parte decimal é descartada, esse fenômeno é chamado de truncamento.
+c) Para manter o número com a parte decimal, a variável deve ser declarada como float ou double. Se quiser arredondar o número pode ser utilizada a função round(), da biblioteca math.h, que arredonda o número para o inteiro mais próximo.

@@ -1,0 +1,10 @@
+a) i < j + 3 -> 1 < (2 + 3) -> 1 < 5 -> Resultado: 1 (Verdadeiro)
+b) 2 * i - 7 <= j - 8 -> (2 - 7) <= (2 - 8) -> -5 <= -6 -> Resultado: 0 (Falso)
+c) -x + y >= 2.0 * y -> -3.3 + 4.4 >= 8.8 -> 1.1 >= 8.8 -> Resultado: 0 (Falso)
+d) x == y -> 3.3 == 4.4 -> Resultado: 0 (Falso)
+e) !(n - j) -> !(2 - 2) -> !(0) -> Resultado: 1 (Verdadeiro)
+f) !n - j -> (!2) - 2 -> 0 - 2 -> Resultado: -2 (Verdadeiro) - Todo valor diferente de 0 em C é considerado verdadeiro.
+g) i && j && k -> 1 && 2 && 3 -> Resultado: 1 (Verdadeiro)
+h) i || j && k -> 1 || 2 && 3 -> Resultado: 1 (Verdadeiro)
+i) i < j && 2 >= k -> (1 < 2) && (2 >= 3) -> 1 && 0 -> Resultado: 0 (Falso)
+j) i == 2 || j == 4 || k == 5 -> 0 || 0 || 0 -> Resultado: 0 (Falso)
